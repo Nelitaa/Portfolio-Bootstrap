@@ -1,2 +1,10 @@
-//$primary: #000;
+$primary: #f55800;
+$info: #505f79;
+$dark: #1c1a19;
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg-img {
+    background-image: url("../images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
