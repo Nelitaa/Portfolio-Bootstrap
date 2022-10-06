@@ -200,8 +200,27 @@
 				</div>
 			</div>
 		</section>
-		<section id="contact" class="bg-light">
-			contact
+		<section id="contact" class="bg-light min-vh-100 d-flex row align-content-center">
+			<div class="d-flex flex-row justify-content-center">
+				<div class="col-4">
+					<p class="fs-1 fw-bold">I'm always interested <br> in hearing about new <br> projects, so if you'd <br> like to chat please <br> get in touch.</p>
+				</div>
+				<div class="col-6">
+					<form class="flex-column">
+						<div class="d-flex flex-row justify-content-center gap-3 my-4">
+							<label for="name" hidden>Name</label>
+							<input type="text" id="name" class="form-control" name="name" placeholder="First Name" required/>
+							<label for="last-name" hidden>Last Name</label>
+							<input type="text" id="last-name" class="form-control" name="Last-Name" placeholder="Last Name" required/>
+						</div>
+                		<label for="email" hidden>Email</label>
+                		<input type="email" id="email" class="form-control my-4" name="email" placeholder="Email Address" required/>
+                		<label for="message" hidden>Message</label>
+                		<textarea id="message" class="form-control my-4" name="message" placeholder="Hello, Glad to see you!" id="" cols="30" rows="5" required></textarea>
+						<button class="btn btn-primary text-light fw-bold" type="submit">Get in touch</button>
+					</form>
+				</div>
+			</div>
 		</section>
 		<footer class="d-flex justify-content-center bg-light">
 			<div class="btn-group">
