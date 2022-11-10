@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio in Bootstrap</title>
+  <link rel="stylesheet" href="./css/custom-bootstrap.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid px-5 d-flex flex-row justify-content-between">
+				<a class="navbar-brand text-light">mPB</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end pe-5" id="navbarContent">
+					<ul class="navbar-nav d-flex flex-row gap-3">
+						<li class="nav-item"><a class="nav-link text-light" href="#projects">Portfolio</a></li>
+						<li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link text-light" href="#contact">Contact</a></li>
+						<li class="nav-item"><a class="nav-link text-light" href="mailto:martin.perezbazan@gmail.com"><img src="./images/Email.svg"/></a></li>
+					</ul>
+				</div>
+			</div>
+    </nav>
+  </header>
+  <main class="d-flex flex-column justify-content-center min-vh-100 bg-dark">
+		<section id="headline" class="bg-dark bg-img min-vh-100 py-5">
+			<div class="container-fluid align-items-center d-flex flex-row min-vh-100">
+				<div class="row">
+					<div class="col-md-6 order-md-1">
+						<div>
+							<h1 class="text-primary fw-bolder display-1">Hey There. <br> I’m Alex</h1>
+							<p class="text-light fs-2 fw-bold">I’am a Software Developer</p>
+							<p class="text-light fs-3">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+						</div>
+					</div>
+					<div class="col-md-1">
+						<div class="btn-group mh-100 flex-md-column m-2">
+							<a class="btn btn-outline-light border-0" href="#"><img src="./images/GitHub.svg" alt="Github Logo"></a>
+							<a class="btn btn-outline-light border-0" href="#"><img src="./images/Linkedin.svg" alt="Linkedin Logo"></a>
+							<a class="btn btn-outline-light border-0" href="#"><img src="./images/Twitter.svg" alt="Twitter Logo"></a>
+							<a class="btn btn-outline-light border-0" href="#"><img src="./images/Medium.svg" alt="Medium Logo"></a>
+							<a class="btn btn-outline-light border-0" href="#"><img src="./images/Angelist.svg" alt="Angelist Logo"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="projects" class="bg-light min-vh-100 py-5">
+			<div class="container my-5">
+				<div class="row">
+					<div class="col-md-4">
+						<h2 class="text-md-end fs-1">My Recent Works</h2>
+					</div>
+					<div class="col-md-8">
+						<hr class="border-3 border-top border-dark">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="card border-0 bg-light">
+							<div class="card-body">
+								<div class="row">
+									<img src="./images/image2.png" alt="Website GymFit image" class="col-md-6"/>
+									<div class="col-md-6">
+										<h3 class="fs-1">Multi-Post Stories</h3>
+										<p class="fs-4">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+										<ul class="p-0 flex-row ">
+											<li class="badge text-dark fs-5 border mx-2">css</li>
+											<li class="badge text-dark fs-5 border mx-2">html</li>
+											<li class="badge text-dark fs-5 border mx-2">bootstrap</li>
+											<li class="badge text-dark fs-5 border mx-2">Ruby</li>
+										</ul>
+										<button class="btn btn-primary text-light fw-bold">See Project</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card d-flex flex-column justify-content-end">
+							<img src="./images/Image-ProfesionalPrint.png" alt="Profesional Print image" class="card-img">
+							<button class="btn btn-primary text-light fw-bold">See Project</button>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="col-12 card-img-overlay d-flex flex-column justify-content-end">
+								<h4 class="text-light">Data Dashboard Healthcare</h4>
+								<p class="text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+								<ul class="p-0 flex-row ">
+									<li class="badge text-light fs-6 fw-thin border mx-2">html</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">bootstrap</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">Ruby</li>
+								</ul>
+							</div>
+							<img src="./images/Image-DataDashboard.png" alt="DataDashboard Image" class="card-img">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="col-12 card-img-overlay d-flex flex-column justify-content-end">
+								<h4 class="text-light">Website Protfolio</h4>
+								<p class="text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+								<ul class="p-0 flex-row ">
+									<li class="badge text-light fs-6 fw-thin border mx-2">html</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">bootstrap</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">Ruby</li>
+								</ul>
+							</div>
+							<img src="./images/Image-WebsitePortfolio.png" alt="DataDashboard Image" class="card-img">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="col-12 card-img-overlay d-flex flex-column justify-content-end">
+								<h4 class="text-light">Profesional Art Printing Data More</h4>
+								<p class="text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+								<ul class="p-0 flex-row ">
+									<li class="badge text-light fs-6 fw-thin border mx-2">html</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">bootstrap</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">Ruby</li>
+								</ul>
+							</div>
+							<img src="./images/image1.png" alt="Profesional Print Image" class="card-img">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="col-12 card-img-overlay d-flex flex-column justify-content-end">
+								<h4 class="text-light">Data Dashboard Healthcare</h4>
+								<p class="text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+								<ul class="p-0 flex-row ">
+									<li class="badge text-light fs-6 fw-thin border mx-2">html</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">bootstrap</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">Ruby</li>
+								</ul>
+							</div>
+							<img src="./images/Image-DataDashboard.png" alt="DataDashboard Image" class="card-img">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<div class="col-12 card-img-overlay d-flex flex-column justify-content-end">
+								<h4 class="text-light">Website Protfolio</h4>
+								<p class="text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+								<ul class="p-0 flex-row ">
+									<li class="badge text-light fs-6 fw-thin border mx-2">html</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">bootstrap</li>
+									<li class="badge text-light fs-6 fw-thin border mx-2">Ruby</li>
+								</ul>
+							</div>
+							<img src="./images/Image-WebsitePortfolio.png" alt="DataDashboard Image" class="card-img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="bg-img-about min-vh-100 py-5">
+			<div class="container justify-content-center d-flex flex-column min-vh-100 gap-5">
+				<div class="row min-vh-50 my-5">
+					<div class="col-md-6">
+						<h1 class="text-primary fw-bolder display-1">About me</h1>
+						<p class="text-light fs-3">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+						<button type="button" class="btn btn-primary text-light fw-bold">Get My Resume</button>
+					</div>
+				</div>
+				<div>
+					<hr class="border-3 border-top border-ligth w-100">
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-4 text-center text-md-start">
+						<h3 class="text-light fs-2 fw-bold"><img src="./images/Rectangle 55.svg">   Language</h3>
+						<ul class="d-flex flex-column gap-2 p-0">
+							<li class="text-light fs-4" style="list-style-type: none;">Javascript</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Ruby</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Html</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Css</li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-center text-md-start">
+						<h3 class="text-light fs-2 fw-bold"><img src="./images/Rectangle 56.svg">   Frameworks</h3>
+						<ul class="d-flex flex-column gap-2 p-0">
+							<li class="text-light fs-4" style="list-style-type: none;">Bootstrap</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Ruby on Rails</li>
+							<li class="text-light fs-4" style="list-style-type: none;">RSPec</li>
+							<li class="text-light fs-4" style="list-style-type: none;">CapyBara</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Selenium</li>
+						</ul>
+					</div>
+					<div class="col-md-4 text-center text-md-start">
+						<h3 class="text-light fs-2 fw-bold"><img src="./images/Rectangle 57.svg">   Skills</h3>
+						<ul class="d-flex flex-column gap-2 p-0">
+							<li class="text-light fs-4" style="list-style-type: none;">Codekit</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Github</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Codepen</li>
+							<li class="text-light fs-4" style="list-style-type: none;">Terminal</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="bg-light min-vh-100 d-flex row align-content-center">
+			<div class="d-flex flex-row justify-content-center row">
+				<div class="col-md-4 text-center">
+					<p class="fs-1 fw-bold">I'm always interested <br> in hearing about new <br> projects, so if you'd <br> like to chat please <br> get in touch.</p>
+				</div>
+				<div class="col-md-6">
+					<form class="flex-column">
+						<div class="d-flex flex-row justify-content-center gap-3 my-4">
+							<label for="name" hidden>Name</label>
+							<input type="text" id="name" class="form-control" name="name" placeholder="First Name" required/>
+							<label for="last-name" hidden>Last Name</label>
+							<input type="text" id="last-name" class="form-control" name="Last-Name" placeholder="Last Name" required/>
+						</div>
+						<label for="email" hidden>Email</label>
+						<input type="email" id="email" class="form-control my-4" name="email" placeholder="Email Address" required/>
+						<label for="message" hidden>Message</label>
+						<textarea id="message" class="form-control my-4" name="message" placeholder="Hello, Glad to see you!" id="" cols="30" rows="5" required></textarea>
+						<button class="btn btn-primary text-light fw-bold" type="submit">Get in touch</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="d-flex justify-content-center bg-light">
+			<div class="btn-group">
+				<a class="btn btn-outline-light border-0" href="#"><img src="./images/Github-dark.png" alt="Github Logo"></a>
+				<a class="btn btn-outline-light border-0" href="#"><img src="./images/Linkedin-dark.svg" alt="Linkedin Logo"></a>
+				<a class="btn btn-outline-light border-0" href="#"><img src="./images/Twitter-dark.svg" alt="Twitter Logo"></a>
+				<a class="btn btn-outline-light border-0" href="#"><img src="./images/Medium-dark.svg" alt="Medium Logo"></a>
+				<a class="btn btn-outline-light border-0" href="#"><img src="./images/Angelist-dark.svg" alt="Angelist Logo"></a>
+			</div>
+		</footer>
+  </main>
+</body>
+</html>
